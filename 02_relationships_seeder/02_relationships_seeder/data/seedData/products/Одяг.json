@@ -1,0 +1,12 @@
+[
+  { "Name": "Футболка базова", "Description": "Бавовняна футболка", "Price": 399, "Amount": 120 },
+  { "Name": "Джинси класичні", "Description": "Чоловічі джинси", "Price": 1299, "Amount": 60 },
+  { "Name": "Куртка демісезонна", "Description": "Легка куртка", "Price": 2499, "Amount": 35 },
+  { "Name": "Светр теплий", "Description": "В’язаний светр", "Price": 999, "Amount": 45 },
+  { "Name": "Сорочка офісна", "Description": "Класична сорочка", "Price": 899, "Amount": 50 },
+  { "Name": "Шорти літні", "Description": "Легкі шорти", "Price": 549, "Amount": 70 },
+  { "Name": "Худі з капюшоном", "Description": "Тепле худі", "Price": 1199, "Amount": 40 },
+  { "Name": "Пальто зимове", "Description": "Тепле пальто", "Price": 3999, "Amount": 20 },
+  { "Name": "Спортивний костюм", "Description": "Костюм для тренувань", "Price": 1799, "Amount": 30 },
+  { "Name": "Майка спортивна", "Description": "Дихаюча тканина", "Price": 299, "Amount": 90 }
+]

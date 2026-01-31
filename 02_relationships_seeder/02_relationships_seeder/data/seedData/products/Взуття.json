@@ -1,0 +1,12 @@
+[
+  { "Name": "Кросівки бігові", "Description": "Кросівки для бігу", "Price": 2199, "Amount": 55 },
+  { "Name": "Черевики зимові", "Description": "Теплі зимові черевики", "Price": 3499, "Amount": 25 },
+  { "Name": "Туфлі класичні", "Description": "Шкіряні туфлі", "Price": 2799, "Amount": 30 },
+  { "Name": "Сандалі літні", "Description": "Легкі сандалі", "Price": 1299, "Amount": 40 },
+  { "Name": "Кеди повсякденні", "Description": "Кеди на кожен день", "Price": 1599, "Amount": 65 },
+  { "Name": "Чоботи жіночі", "Description": "Осінні чоботи", "Price": 3299, "Amount": 22 },
+  { "Name": "Капці домашні", "Description": "М’які капці", "Price": 499, "Amount": 80 },
+  { "Name": "Мокасини", "Description": "Зручне повсякденне взуття", "Price": 1899, "Amount": 35 },
+  { "Name": "Лофери", "Description": "Стильні лофери", "Price": 2399, "Amount": 28 },
+  { "Name": "Сліпони", "Description": "Легкі сліпони", "Price": 1499, "Amount": 50 }
+]

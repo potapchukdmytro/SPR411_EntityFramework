@@ -1,0 +1,12 @@
+[
+  { "Name": "Смартфон X1", "Description": "Смартфон з 6.5-дюймовим дисплеєм", "Price": 12999, "Amount": 25 },
+  { "Name": "Ноутбук ProBook", "Description": "Ноутбук для роботи та навчання", "Price": 28999, "Amount": 12 },
+  { "Name": "Бездротові навушники AirSound", "Description": "Навушники з шумопоглинанням", "Price": 3499, "Amount": 40 },
+  { "Name": "Смарт-годинник TimeFit", "Description": "Фітнес-годинник з пульсометром", "Price": 4999, "Amount": 30 },
+  { "Name": "Планшет Tab10", "Description": "Планшет для мультимедіа", "Price": 8999, "Amount": 18 },
+  { "Name": "Павербанк 20000 mAh", "Description": "Зовнішній акумулятор великої ємності", "Price": 1299, "Amount": 60 },
+  { "Name": "Bluetooth-колонка Boom", "Description": "Портативна колонка з гучним звуком", "Price": 2199, "Amount": 35 },
+  { "Name": "Монітор 27 дюймів", "Description": "IPS монітор для роботи", "Price": 7499, "Amount": 14 },
+  { "Name": "Миша бездротова", "Description": "Ергономічна комп’ютерна миша", "Price": 699, "Amount": 80 },
+  { "Name": "Клавіатура механічна", "Description": "Клавіатура з підсвіткою", "Price": 2599, "Amount": 22 }
+]

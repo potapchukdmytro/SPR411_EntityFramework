@@ -1,0 +1,12 @@
+[
+  { "Name": "Холодильник FrostFree", "Description": "Двокамерний холодильник", "Price": 19999, "Amount": 8 },
+  { "Name": "Пральна машина CleanWash", "Description": "Автоматична пральна машина", "Price": 17999, "Amount": 10 },
+  { "Name": "Мікрохвильова піч HeatUp", "Description": "Мікрохвильовка з грилем", "Price": 3999, "Amount": 20 },
+  { "Name": "Електрочайник Steel", "Description": "Металевий електрочайник", "Price": 1199, "Amount": 45 },
+  { "Name": "Пилосос PowerClean", "Description": "Потужний пилосос без мішка", "Price": 5499, "Amount": 16 },
+  { "Name": "Мультиварка SmartCook", "Description": "Мультиварка на 12 програм", "Price": 3299, "Amount": 25 },
+  { "Name": "Праска SteamPro", "Description": "Праска з паровим ударом", "Price": 1899, "Amount": 28 },
+  { "Name": "Тостер DuoToast", "Description": "Тостер на два хлібці", "Price": 999, "Amount": 33 },
+  { "Name": "Витяжка кухонна", "Description": "Настінна витяжка", "Price": 6499, "Amount": 9 },
+  { "Name": "Обігрівач OilHeat", "Description": "Масляний обігрівач", "Price": 2799, "Amount": 19 }
+]
