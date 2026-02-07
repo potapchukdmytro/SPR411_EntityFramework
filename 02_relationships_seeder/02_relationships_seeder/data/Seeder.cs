@@ -1,4 +1,4 @@
-﻿using _02_relationships_seeder.entites;
+﻿using _02_relationships_seeder.Entites;
 using Microsoft.EntityFrameworkCore;
 using System.Text.Json;
 

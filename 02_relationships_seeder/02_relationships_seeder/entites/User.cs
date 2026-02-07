@@ -1,4 +1,4 @@
-﻿namespace _02_relationships_seeder.entites
+﻿namespace _02_relationships_seeder.Entites
 {
     public class User
     {
@@ -8,9 +8,9 @@
         public string LastName { get; set; } = string.Empty;
 
         // One-to-Many Relationship with Order
-        public List<Order> Orders { get; set; } = []; // Navigation Property
+        public virtual List<Order> Orders { get; set; } = []; // Navigation Property
 
         // Many-to-Many Relationship with Role
-        public List<Role> Roles { get; set; } = [];
+        public virtual List<Role> Roles { get; set; } = [];
     }
 }

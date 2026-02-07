@@ -1,4 +1,4 @@
-﻿using _02_relationships_seeder.entites;
+﻿using _02_relationships_seeder.Entites;
 using Microsoft.EntityFrameworkCore;
 
 namespace _02_relationships_seeder.data
@@ -15,7 +15,11 @@ namespace _02_relationships_seeder.data
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             string connectionString = "Server=localhost;Database=SPR411_Shop;Trusted_Connection=True;TrustServerCertificate=True;";
-            optionsBuilder.UseSqlServer(connectionString);
+            optionsBuilder
+                .UseLazyLoadingProxies()
+                .UseSqlServer(connectionString);
+                //.LogTo(Console.WriteLine, [DbLoggerCategory.Database.Command.Name]) // логування
+                //.EnableSensitiveDataLogging();
 
             base.OnConfiguring(optionsBuilder);
         }

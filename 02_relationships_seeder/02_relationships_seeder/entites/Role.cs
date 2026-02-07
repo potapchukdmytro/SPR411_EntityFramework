@@ -1,4 +1,4 @@
-﻿namespace _02_relationships_seeder.entites
+﻿namespace _02_relationships_seeder.Entites
 {
     public class Role
     {
@@ -6,6 +6,6 @@
         public required string Name { get; set; }
 
         // Many-to-Many Relationship with User
-        public List<User> Users { get; set; } = [];
+        public virtual List<User> Users { get; set; } = [];
     }
 }

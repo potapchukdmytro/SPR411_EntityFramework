@@ -1,4 +1,4 @@
-﻿namespace _02_relationships_seeder.entites
+﻿namespace _02_relationships_seeder.Entites
 {
     public class Order
     {
@@ -6,9 +6,9 @@
         public DateTime OrderDate { get; set; } = DateTime.UtcNow;
 
         // One-to-Many Relationship with OrderItem
-        public List<OrderItem> OrderItems { get; set; } = []; // Navigation Property
+        public virtual List<OrderItem> OrderItems { get; set; } = []; // Navigation Property
 
         public int UserId { get; set; } // Foreign Key
-        public User? User { get; set; } // Navigation Property
+        public virtual User? User { get; set; } // Navigation Property
     }
 }

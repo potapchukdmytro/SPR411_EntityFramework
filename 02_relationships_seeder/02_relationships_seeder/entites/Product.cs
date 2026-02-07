@@ -1,4 +1,4 @@
-﻿namespace _02_relationships_seeder.entites
+﻿namespace _02_relationships_seeder.Entites
 {
     public class Product
     {
@@ -11,10 +11,10 @@
 
         // One-to-Many Relationship with Category
         public int CategoryId { get; set; }
-        public Category? Category { get; set; } // Navigation Property
+        public virtual Category? Category { get; set; } // Navigation Property
 
         // One-to-Many Relationship with OrderItem
-        public List<OrderItem> OrderItems { get; set; } = []; // Navigation Property
+        public virtual List<OrderItem> OrderItems { get; set; } = []; // Navigation Property
 
         public override string ToString()
         {
